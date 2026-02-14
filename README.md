@@ -59,7 +59,7 @@ To replicate this setup:
 
 ## 📄 Documentation
 For a deep dive into the implementation details, configuration, and full analysis, please refer to the comprehensive project report:
-* [**Download Full Project Report (PDF)**](./Henry_David_Kee_FYP2.pdf)
+* [**Download Full Project Report (PDF)**](./HenryDavidKee_FYP2.pdf)
 
 ---
 
