@@ -1,0 +1,330 @@
+Timestamp,Honeypot,Src_IP,Country,Confidence,Event,Details,MITRE_ID,MITRE_Technique
+2026-01-06T01:15:59.292919Z,Cowrie,1.238.106.229,KR,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:15:59.293755Z,Cowrie,1.238.106.229,KR,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:15:59.387615Z,Cowrie,1.238.106.229,KR,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:15:59.803471Z,Cowrie,1.238.106.229,KR,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:16:00.899105Z,Cowrie,1.238.106.229,KR,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:01.003802Z,Cowrie,1.238.106.229,KR,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:16:01.004538Z,Cowrie,1.238.106.229,KR,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:01.107004Z,Cowrie,1.238.106.229,KR,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:01.553483Z,Cowrie,1.238.106.229,KR,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:16:02.655331Z,Cowrie,1.238.106.229,KR,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:02.790383Z,Cowrie,1.238.106.229,KR,100,cowrie.session.params,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:02.790992Z,Cowrie,1.238.106.229,KR,100,cowrie.command.input,cat /proc/cpuinfo | grep name | wc -l,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:02.895046Z,Cowrie,1.238.106.229,KR,100,cowrie.log.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:03.162002Z,Cowrie,1.238.106.229,KR,100,cowrie.session.params,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:03.162849Z,Cowrie,1.238.106.229,KR,100,cowrie.command.input,"echo -e ""team3@123\nilZwNpMJs11Q\nilZwNpMJs11Q""|passwd|bash",T1071,Standard Application Layer Protocol
+2026-01-06T01:16:03.164140Z,Cowrie,1.238.106.229,KR,100,cowrie.command.input,Enter new UNIX password: ,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:03.164994Z,Cowrie,1.238.106.229,KR,100,cowrie.command.failed,Enter new UNIX password:,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:03.266711Z,Cowrie,1.238.106.229,KR,100,cowrie.log.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:03.538685Z,Cowrie,1.238.106.229,KR,100,cowrie.session.params,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:03.539182Z,Cowrie,1.238.106.229,KR,100,cowrie.command.input,"echo ""team3@123\nilZwNpMJs11Q\nilZwNpMJs11Q\n""|passwd",T1071,Standard Application Layer Protocol
+2026-01-06T01:16:03.643334Z,Cowrie,1.238.106.229,KR,100,cowrie.log.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:03.872545Z,Cowrie,1.238.106.229,KR,100,cowrie.session.params,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:03.873106Z,Cowrie,1.238.106.229,KR,100,cowrie.command.input,"cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'",T1071,Standard Application Layer Protocol
+2026-01-06T01:16:03.977192Z,Cowrie,1.238.106.229,KR,100,cowrie.log.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:04.253501Z,Cowrie,1.238.106.229,KR,100,cowrie.session.params,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:04.254034Z,Cowrie,1.238.106.229,KR,100,cowrie.command.input,"free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'",T1071,Standard Application Layer Protocol
+2026-01-06T01:16:04.357342Z,Cowrie,1.238.106.229,KR,100,cowrie.log.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:04.628857Z,Cowrie,1.238.106.229,KR,100,cowrie.session.params,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:04.629538Z,Cowrie,1.238.106.229,KR,100,cowrie.command.input,ls -lh $(which ls),T1071,Standard Application Layer Protocol
+2026-01-06T01:16:04.630325Z,Cowrie,1.238.106.229,KR,100,cowrie.command.input,which ls,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:04.733514Z,Cowrie,1.238.106.229,KR,100,cowrie.log.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:05.007140Z,Cowrie,1.238.106.229,KR,100,cowrie.session.params,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:05.007664Z,Cowrie,1.238.106.229,KR,100,cowrie.command.input,crontab -l,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:05.110108Z,Cowrie,1.238.106.229,KR,100,cowrie.log.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:05.380270Z,Cowrie,1.238.106.229,KR,100,cowrie.session.params,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:05.380749Z,Cowrie,1.238.106.229,KR,100,cowrie.command.input,w,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:05.483206Z,Cowrie,1.238.106.229,KR,100,cowrie.log.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:05.752327Z,Cowrie,1.238.106.229,KR,100,cowrie.session.params,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:05.752825Z,Cowrie,1.238.106.229,KR,100,cowrie.command.input,uname -m,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:05.856072Z,Cowrie,1.238.106.229,KR,100,cowrie.log.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:06.133642Z,Cowrie,1.238.106.229,KR,100,cowrie.session.params,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:06.134190Z,Cowrie,1.238.106.229,KR,100,cowrie.command.input,cat /proc/cpuinfo | grep model | grep name | wc -l,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:06.238626Z,Cowrie,1.238.106.229,KR,100,cowrie.log.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:06.467624Z,Cowrie,1.238.106.229,KR,100,cowrie.session.params,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:06.468840Z,Cowrie,1.238.106.229,KR,100,cowrie.command.input,top,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:06.571473Z,Cowrie,1.238.106.229,KR,100,cowrie.log.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:06.838475Z,Cowrie,1.238.106.229,KR,100,cowrie.session.params,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:06.839039Z,Cowrie,1.238.106.229,KR,100,cowrie.command.input,uname,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:06.946620Z,Cowrie,1.238.106.229,KR,100,cowrie.log.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:07.216375Z,Cowrie,1.238.106.229,KR,100,cowrie.session.params,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:07.218444Z,Cowrie,1.238.106.229,KR,100,cowrie.command.input,uname -a,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:07.321288Z,Cowrie,1.238.106.229,KR,100,cowrie.log.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:07.590697Z,Cowrie,1.238.106.229,KR,100,cowrie.session.params,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:07.591185Z,Cowrie,1.238.106.229,KR,100,cowrie.command.input,whoami,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:07.693049Z,Cowrie,1.238.106.229,KR,100,cowrie.log.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:07.964389Z,Cowrie,1.238.106.229,KR,100,cowrie.session.params,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:07.964875Z,Cowrie,1.238.106.229,KR,100,cowrie.command.input,lscpu | grep Model,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:08.069304Z,Cowrie,1.238.106.229,KR,100,cowrie.log.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:08.340657Z,Cowrie,1.238.106.229,KR,100,cowrie.session.params,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:08.341183Z,Cowrie,1.238.106.229,KR,100,cowrie.command.input,df -h | head -n 2 | awk 'FNR == 2 {print $2;}',T1071,Standard Application Layer Protocol
+2026-01-06T01:16:08.446923Z,Cowrie,1.238.106.229,KR,100,cowrie.log.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:08.449866Z,Cowrie,1.238.106.229,KR,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:11.120287Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:16:11.287685Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:11.288368Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:12.814541Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:16:14.313184Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:33.517762Z,Cowrie,1.238.106.229,KR,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:16:33.518732Z,Cowrie,1.238.106.229,KR,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:33.617780Z,Cowrie,1.238.106.229,KR,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:34.051580Z,Cowrie,1.238.106.229,KR,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:16:35.151278Z,Cowrie,1.238.106.229,KR,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:43.050406Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:16:43.376488Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:43.377172Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:44.813208Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:16:46.508486Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:56.612301Z,Cowrie,180.184.52.36,CN,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:16:59.927052Z,Cowrie,103.252.219.253,IN,77,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:17:11.791446Z,Cowrie,1.238.106.229,KR,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:17:11.792300Z,Cowrie,1.238.106.229,KR,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:17:11.891555Z,Cowrie,1.238.106.229,KR,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:17:12.328321Z,Cowrie,1.238.106.229,KR,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:17:13.430000Z,Cowrie,1.238.106.229,KR,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:17:14.811699Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:17:14.944940Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:17:15.101432Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:17:16.471289Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:17:18.017254Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:17:25.925795Z,Cowrie,103.252.219.253,IN,77,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:17:46.936722Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:17:47.173323Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:17:47.174012Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:17:48.227540Z,Cowrie,1.238.106.229,KR,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:17:48.228188Z,Cowrie,1.238.106.229,KR,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:17:48.326695Z,Cowrie,1.238.106.229,KR,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:17:48.592577Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:17:48.766207Z,Cowrie,1.238.106.229,KR,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:17:49.867143Z,Cowrie,1.238.106.229,KR,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:17:50.259927Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:18:19.578370Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:18:19.869416Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:18:19.870028Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:18:21.351494Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:18:23.031548Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:18:24.349806Z,Cowrie,1.238.106.229,KR,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:18:24.350413Z,Cowrie,1.238.106.229,KR,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:18:24.436990Z,Cowrie,1.238.106.229,KR,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:18:24.825995Z,Cowrie,1.238.106.229,KR,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:18:25.915324Z,Cowrie,1.238.106.229,KR,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:18:51.839305Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:18:52.000763Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:18:52.001396Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:18:53.354847Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:18:54.865049Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:19:23.612168Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:19:23.789886Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:19:23.790498Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:19:24.956136Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:19:26.633800Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:19:54.595161Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:19:54.843046Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:19:54.864229Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:19:56.069206Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:19:57.488290Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:20:24.958302Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:20:25.266645Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:20:25.267293Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:20:26.788568Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:20:28.522320Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:20:55.027430Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:20:55.149545Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:20:55.487367Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:20:56.555979Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:20:58.288658Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:21:24.891440Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:21:25.135986Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:21:25.136633Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:21:26.490663Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:21:27.946608Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:21:54.735493Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:21:54.852504Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:21:55.204027Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:21:56.353941Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:21:58.011891Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:22:24.853326Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:22:25.119336Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:22:25.119953Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:22:26.417001Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:22:28.002772Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:22:54.898248Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:22:55.184876Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:22:55.185537Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:22:56.505196Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:22:58.147622Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:23:25.635977Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:23:25.838721Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:23:25.839323Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:23:27.343548Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:23:29.066830Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:23:55.934426Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:23:56.063485Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:23:56.364433Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:23:57.432915Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:23:59.116255Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:24:27.522957Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:24:27.809420Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:24:27.810056Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:24:28.910672Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:24:30.568793Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:24:59.832168Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:25:00.100191Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:25:00.100820Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:25:01.311285Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:25:03.023417Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:25:31.093309Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:25:31.252275Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:25:31.410720Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:25:32.773621Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:25:34.307450Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:26:01.493956Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:26:01.756107Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:26:01.756993Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:26:03.141151Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:26:04.744360Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:26:31.762410Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:26:31.907470Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:26:32.079666Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:26:32.956934Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:26:34.476037Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:27:01.505278Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:27:01.646655Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:27:01.832690Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:27:02.772875Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:27:04.303015Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:27:30.159744Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:27:30.299394Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:27:30.450149Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:27:31.880628Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:27:33.444322Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:27:59.218031Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:27:59.379532Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:27:59.525551Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:28:00.810679Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:28:02.356609Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:28:27.824562Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:28:27.993592Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:28:28.262039Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:28:29.305942Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:28:30.819547Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:28:57.284731Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:28:57.538318Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:28:57.538913Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:28:58.979614Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:29:00.449896Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:29:26.145033Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:29:26.456092Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:29:26.456772Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:29:27.870330Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:29:29.490239Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:29:56.693154Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:29:57.063886Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:29:57.064539Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:29:58.688351Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:30:00.589617Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:30:27.556275Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:30:27.674674Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:30:27.883703Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:30:29.087596Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:30:30.651569Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:30:58.870642Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:30:58.986233Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:30:59.321134Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:31:00.413868Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:31:01.949296Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:31:29.917194Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:31:30.023172Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:31:30.302067Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:31:31.156682Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:31:32.760681Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:32:01.207176Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:32:01.353621Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:32:01.500189Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:32:02.976539Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:32:04.546124Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:32:30.999433Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:32:31.325928Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:32:31.326559Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:32:32.789459Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:32:34.387563Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:33:00.516280Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:33:00.699502Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:33:00.700227Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:33:01.958258Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:33:03.766850Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:33:29.675517Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:33:29.807395Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:33:29.955130Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:33:31.351511Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:33:32.866780Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:33:58.229046Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:33:58.489793Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:33:58.490561Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:33:59.790571Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:34:01.329718Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:34:27.007967Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:34:27.326248Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:34:27.326898Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:34:28.680712Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:34:30.184272Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:34:55.915417Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:34:56.211031Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:34:56.217968Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:34:57.593967Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:34:59.062642Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:35:25.853048Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:35:26.197767Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:35:26.198380Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:35:27.884598Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:35:29.775540Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:35:55.899846Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:35:56.211503Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:35:56.212123Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:35:57.600008Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:35:59.070500Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:36:26.007920Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:36:26.267067Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:36:26.267711Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:36:27.648548Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:36:29.179613Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:36:56.802057Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:36:56.908062Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:36:57.086169Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:36:58.511312Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:37:00.072660Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T01:37:27.253495Z,Cowrie,164.92.221.17,NL,100,cowrie.session.connect,,T1046,Network Service Discovery
+2026-01-06T01:37:27.545140Z,Cowrie,164.92.221.17,NL,100,cowrie.client.version,,T1071,Standard Application Layer Protocol
+2026-01-06T01:37:27.545770Z,Cowrie,164.92.221.17,NL,100,cowrie.client.kex,,T1071,Standard Application Layer Protocol
+2026-01-06T01:37:28.961403Z,Cowrie,164.92.221.17,NL,100,cowrie.login.failed,,T1110,Brute Force
+2026-01-06T01:37:30.490332Z,Cowrie,164.92.221.17,NL,100,cowrie.session.closed,,T1071,Standard Application Layer Protocol
+2026-01-06T00:06:44.300726,Dionaea,101.36.106.89,HK,100,,,T1071,Standard Application Layer Protocol
+2026-01-06T00:06:45.009650,Dionaea,101.36.106.89,HK,100,,,T1071,Standard Application Layer Protocol
+2026-01-06T00:06:55.167328,Dionaea,101.36.106.89,HK,100,,,T1071,Standard Application Layer Protocol
+2026-01-06T00:12:06.871513,Dionaea,36.237.107.253,TW,4,,,T1071,Standard Application Layer Protocol
+2026-01-06T00:16:34.544338,Dionaea,36.237.107.253,TW,4,,,T1071,Standard Application Layer Protocol
+2026-01-06T00:16:34.657493,Dionaea,36.237.107.253,TW,4,,,T1071,Standard Application Layer Protocol
+2026-01-06T00:18:38.232507,Dionaea,36.237.107.253,TW,4,,,T1071,Standard Application Layer Protocol
+2026-01-06T00:18:38.773501,Dionaea,36.237.107.253,TW,4,,,T1071,Standard Application Layer Protocol
+2026-01-06T00:34:09.855922,Dionaea,36.237.107.253,TW,4,,,T1071,Standard Application Layer Protocol
+2026-01-06T00:38:36.943402,Dionaea,36.237.107.253,TW,4,,,T1071,Standard Application Layer Protocol
+2026-01-06T00:38:37.057057,Dionaea,36.237.107.253,TW,4,,,T1071,Standard Application Layer Protocol
+2026-01-06T00:40:40.633957,Dionaea,36.237.107.253,TW,4,,,T1071,Standard Application Layer Protocol
+2026-01-06T00:42:55.202870,Dionaea,61.220.241.183,TW,100,,,T1071,Standard Application Layer Protocol
+2026-01-06T00:42:56.539763,Dionaea,61.220.241.183,TW,100,,,T1071,Standard Application Layer Protocol
+2026-01-06T00:40:41.207513,Dionaea,36.237.107.253,TW,4,,,T1071,Standard Application Layer Protocol
+2026-01-06T00:45:15.545477,Dionaea,198.235.24.107,TW,0,,,T1071,Standard Application Layer Protocol
+2026-01-06T00:57:59.105151,Dionaea,180.246.231.241,ID,15,,,T1071,Standard Application Layer Protocol
+2026-01-06T00:57:59.131109,Dionaea,180.246.231.241,ID,15,,,T1071,Standard Application Layer Protocol
+2026-01-06T01:00:02.298138,Dionaea,180.246.231.241,ID,15,,,T1071,Standard Application Layer Protocol
+2026-01-06T01:00:02.511444,Dionaea,180.246.231.241,ID,15,,,T1071,Standard Application Layer Protocol
+2026-01-06T01:11:37.525808,Dionaea,162.142.125.201,US,0,,,T1071,Standard Application Layer Protocol
+2026-01-06T01:33:30.639847+0000,Suricata,164.92.221.17,NL,100,ssh,,T1071,Standard Application Layer Protocol
+2026-01-06T01:33:39.525475+0000,Suricata,164.92.221.17,NL,100,flow,,T1071,Standard Application Layer Protocol
+2026-01-06T01:33:59.118028+0000,Suricata,164.92.221.17,NL,100,ssh,,T1071,Standard Application Layer Protocol
+2026-01-06T01:34:05.409513+0000,Suricata,164.92.221.17,NL,100,flow,,T1071,Standard Application Layer Protocol
+2026-01-06T01:34:27.956042+0000,Suricata,164.92.221.17,NL,100,ssh,,T1071,Standard Application Layer Protocol
+2026-01-06T01:34:39.259106+0000,Suricata,164.92.221.17,NL,100,flow,,T1071,Standard Application Layer Protocol
+2026-01-06T01:34:56.795741+0000,Suricata,164.92.221.17,NL,100,ssh,,T1071,Standard Application Layer Protocol
+2026-01-06T01:35:06.139801+0000,Suricata,164.92.221.17,NL,100,flow,,T1071,Standard Application Layer Protocol

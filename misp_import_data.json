@@ -1,0 +1,272 @@
+[
+    {
+        "Event": {
+            "uuid": "1d796588-ea3d-4ac2-a367-3bf62d85f910",
+            "info": "T-Pot Alert: cowrie.session.connect detected from 1.238.106.229",
+            "date": "2026-01-13",
+            "threat_level_id": "2",
+            "analysis": "1",
+            "Attribute": [
+                {
+                    "type": "ip-src",
+                    "value": "1.238.106.229",
+                    "comment": "Detected by Cowrie",
+                    "to_ids": true
+                },
+                {
+                    "type": "text",
+                    "value": "MITRE ATT&CK: T1046 - Network Service Discovery",
+                    "comment": "Automated Classification"
+                },
+                {
+                    "type": "text",
+                    "value": "Origin: KR",
+                    "comment": "GeoIP Enrichment"
+                }
+            ]
+        }
+    },
+    {
+        "Event": {
+            "uuid": "868ba069-4427-44c6-8f4d-cc33fbec7d57",
+            "info": "T-Pot Alert: cowrie.client.version detected from 1.238.106.229",
+            "date": "2026-01-13",
+            "threat_level_id": "2",
+            "analysis": "1",
+            "Attribute": [
+                {
+                    "type": "ip-src",
+                    "value": "1.238.106.229",
+                    "comment": "Detected by Cowrie",
+                    "to_ids": true
+                },
+                {
+                    "type": "text",
+                    "value": "MITRE ATT&CK: T1071 - Standard Application Layer Protocol",
+                    "comment": "Automated Classification"
+                },
+                {
+                    "type": "text",
+                    "value": "Origin: KR",
+                    "comment": "GeoIP Enrichment"
+                }
+            ]
+        }
+    },
+    {
+        "Event": {
+            "uuid": "369bfb61-278c-4f1e-8828-8c93362760f9",
+            "info": "T-Pot Alert: cowrie.client.kex detected from 1.238.106.229",
+            "date": "2026-01-13",
+            "threat_level_id": "2",
+            "analysis": "1",
+            "Attribute": [
+                {
+                    "type": "ip-src",
+                    "value": "1.238.106.229",
+                    "comment": "Detected by Cowrie",
+                    "to_ids": true
+                },
+                {
+                    "type": "text",
+                    "value": "MITRE ATT&CK: T1071 - Standard Application Layer Protocol",
+                    "comment": "Automated Classification"
+                },
+                {
+                    "type": "text",
+                    "value": "Origin: KR",
+                    "comment": "GeoIP Enrichment"
+                }
+            ]
+        }
+    },
+    {
+        "Event": {
+            "uuid": "ad9d222a-dde3-47c4-a457-8962654c19f2",
+            "info": "T-Pot Alert: cowrie.login.failed detected from 1.238.106.229",
+            "date": "2026-01-13",
+            "threat_level_id": "2",
+            "analysis": "1",
+            "Attribute": [
+                {
+                    "type": "ip-src",
+                    "value": "1.238.106.229",
+                    "comment": "Detected by Cowrie",
+                    "to_ids": true
+                },
+                {
+                    "type": "text",
+                    "value": "MITRE ATT&CK: T1110 - Brute Force",
+                    "comment": "Automated Classification"
+                },
+                {
+                    "type": "text",
+                    "value": "Origin: KR",
+                    "comment": "GeoIP Enrichment"
+                }
+            ]
+        }
+    },
+    {
+        "Event": {
+            "uuid": "d2d07a0b-6918-42bb-8dc3-11542e6aadc4",
+            "info": "T-Pot Alert: cowrie.session.closed detected from 1.238.106.229",
+            "date": "2026-01-13",
+            "threat_level_id": "2",
+            "analysis": "1",
+            "Attribute": [
+                {
+                    "type": "ip-src",
+                    "value": "1.238.106.229",
+                    "comment": "Detected by Cowrie",
+                    "to_ids": true
+                },
+                {
+                    "type": "text",
+                    "value": "MITRE ATT&CK: T1071 - Standard Application Layer Protocol",
+                    "comment": "Automated Classification"
+                },
+                {
+                    "type": "text",
+                    "value": "Origin: KR",
+                    "comment": "GeoIP Enrichment"
+                }
+            ]
+        }
+    },
+    {
+        "Event": {
+            "uuid": "84e45bc7-753e-45d5-9a77-5ac6989cd677",
+            "info": "T-Pot Alert: cowrie.session.connect detected from 1.238.106.229",
+            "date": "2026-01-13",
+            "threat_level_id": "2",
+            "analysis": "1",
+            "Attribute": [
+                {
+                    "type": "ip-src",
+                    "value": "1.238.106.229",
+                    "comment": "Detected by Cowrie",
+                    "to_ids": true
+                },
+                {
+                    "type": "text",
+                    "value": "MITRE ATT&CK: T1046 - Network Service Discovery",
+                    "comment": "Automated Classification"
+                },
+                {
+                    "type": "text",
+                    "value": "Origin: KR",
+                    "comment": "GeoIP Enrichment"
+                }
+            ]
+        }
+    },
+    {
+        "Event": {
+            "uuid": "daf3db70-740f-431b-9f93-bf90fc804397",
+            "info": "T-Pot Alert: cowrie.client.version detected from 1.238.106.229",
+            "date": "2026-01-13",
+            "threat_level_id": "2",
+            "analysis": "1",
+            "Attribute": [
+                {
+                    "type": "ip-src",
+                    "value": "1.238.106.229",
+                    "comment": "Detected by Cowrie",
+                    "to_ids": true
+                },
+                {
+                    "type": "text",
+                    "value": "MITRE ATT&CK: T1071 - Standard Application Layer Protocol",
+                    "comment": "Automated Classification"
+                },
+                {
+                    "type": "text",
+                    "value": "Origin: KR",
+                    "comment": "GeoIP Enrichment"
+                }
+            ]
+        }
+    },
+    {
+        "Event": {
+            "uuid": "d4629adb-b172-4674-956e-097a17b9c233",
+            "info": "T-Pot Alert: cowrie.client.kex detected from 1.238.106.229",
+            "date": "2026-01-13",
+            "threat_level_id": "2",
+            "analysis": "1",
+            "Attribute": [
+                {
+                    "type": "ip-src",
+                    "value": "1.238.106.229",
+                    "comment": "Detected by Cowrie",
+                    "to_ids": true
+                },
+                {
+                    "type": "text",
+                    "value": "MITRE ATT&CK: T1071 - Standard Application Layer Protocol",
+                    "comment": "Automated Classification"
+                },
+                {
+                    "type": "text",
+                    "value": "Origin: KR",
+                    "comment": "GeoIP Enrichment"
+                }
+            ]
+        }
+    },
+    {
+        "Event": {
+            "uuid": "58eb688c-df20-46c0-88f6-037c95207de9",
+            "info": "T-Pot Alert: cowrie.login.failed detected from 1.238.106.229",
+            "date": "2026-01-13",
+            "threat_level_id": "2",
+            "analysis": "1",
+            "Attribute": [
+                {
+                    "type": "ip-src",
+                    "value": "1.238.106.229",
+                    "comment": "Detected by Cowrie",
+                    "to_ids": true
+                },
+                {
+                    "type": "text",
+                    "value": "MITRE ATT&CK: T1110 - Brute Force",
+                    "comment": "Automated Classification"
+                },
+                {
+                    "type": "text",
+                    "value": "Origin: KR",
+                    "comment": "GeoIP Enrichment"
+                }
+            ]
+        }
+    },
+    {
+        "Event": {
+            "uuid": "d1574259-04f8-4ae2-a001-8b07b1ab0a83",
+            "info": "T-Pot Alert: cowrie.session.closed detected from 1.238.106.229",
+            "date": "2026-01-13",
+            "threat_level_id": "2",
+            "analysis": "1",
+            "Attribute": [
+                {
+                    "type": "ip-src",
+                    "value": "1.238.106.229",
+                    "comment": "Detected by Cowrie",
+                    "to_ids": true
+                },
+                {
+                    "type": "text",
+                    "value": "MITRE ATT&CK: T1071 - Standard Application Layer Protocol",
+                    "comment": "Automated Classification"
+                },
+                {
+                    "type": "text",
+                    "value": "Origin: KR",
+                    "comment": "GeoIP Enrichment"
+                }
+            ]
+        }
+    }
+]
